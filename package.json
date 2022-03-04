@@ -1,0 +1,44 @@
+{
+  "name": "nftscan-player",
+  "version": "0.0.0",
+  "description": "You can use it to show video,audio,image,model,web",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "dev": "webpack serve"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "See",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.17.5",
+    "@babel/preset-react": "^7.16.7",
+    "@pmmmwh/react-refresh-webpack-plugin": "^0.5.4",
+    "@types/react": "^17.0.39",
+    "@types/react-dom": "^17.0.11",
+    "@types/three": "^0.137.0",
+    "babel-loader": "^8.2.3",
+    "clean-webpack-plugin": "^4.0.0",
+    "css-loader": "^6.6.0",
+    "html-webpack-plugin": "^5.5.0",
+    "less": "^4.1.2",
+    "less-loader": "^10.2.0",
+    "optimize-css-assets-webpack-plugin": "^6.0.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-refresh": "^0.11.0",
+    "style-loader": "^3.3.1",
+    "terser-webpack-plugin": "^5.3.1",
+    "ts-loader": "^9.2.6",
+    "typescript": "^4.5.5",
+    "webpack": "^5.69.1",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.7.4"
+  },
+  "dependencies": {
+    "react-player": "^2.9.0",
+    "three": "^0.138.0"
+  }
+}

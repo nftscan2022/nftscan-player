@@ -1,0 +1,29 @@
+.videoBox {
+  .imgBox {
+    opacity: 1;
+    transition: opacity 0.4s linear;
+    &.hidden {
+      opacity: 0;
+    }
+  }
+  .videoPlayer {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+  }
+}
+.playIcon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  width: 40px;
+  height: 40px;
+  font-size: 0;
+  cursor: pointer;
+  img {
+    width: 100%;
+  }
+}
